@@ -1,0 +1,18 @@
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    width: 120px; /* Ancho fijo para los labels */
+    margin-right: 1rem;
+  }
+  
+  .form-group input {
+    flex: 1; /* Los inputs ocupan todo el espacio disponible */
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+  
